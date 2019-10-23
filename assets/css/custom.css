@@ -1,0 +1,156 @@
+/*
+File Name: 		custom.css
+Description:  You can add your custom CSS here and it will overwrite template styles
+*/
+
+/*# sourceMappingURL=maps/custom.css.map */
+
+.btn-danger {
+  color: #fff;
+  background-color: #d0021b;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #334fc1;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f5a623;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #417505;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.bg-gradient-primary {
+  background-color: #ffffff;
+  background-size: cover;
+  background-image: none;
+}
+.bg-gray {
+  background-color: #f2f2f2;
+}
+.badge-success {
+  background-color: #c7eec3 !important;
+}
+.badge-warning {
+  background-color: #fadaa5 !important;
+}
+
+.badge-danger {
+  background-color: #fac8ce !important;
+}
+.border-primary {
+  border: 2px solid #334fc1 !important;
+}
+.border-success {
+  border: 2px solid #417505 !important;
+}
+.border-warning {
+  border: 2px solid #f5a623 !important;
+}
+.border-danger {
+  border: 2px solid #d0021b !important;
+}
+.card {
+  border: 1px solid #e4e7ed;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.comments-list__header {
+  margin-bottom: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.comment__author-name {
+  text-transform: none;
+  font-size: 16px;
+  margin-bottom: 0.25em;
+}
+.comment__post-date {
+  font-size: 14px;
+  line-height: 1.2em;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+.home__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+}
+h1 {
+  font-size: 28px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.h3,
+h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+label {
+  text-transform: none;
+  font-size: 13px;
+}
+.label {
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 2.25em;
+  padding: 0.5em 1.1em;
+  font-size: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.product__price {
+  font-size: 12px;
+}
+.scaled {
+  transform: scale(1.5);
+}
+.text-gray {
+  color: #9a9da2;
+}
+.text-success {
+  color: #417505 !important;
+}
+
+.text-warning {
+  color: #f5a623 !important;
+}
+
+.text-primary {
+  color: #334fc1 !important;
+}
+.text-danger {
+  color: #d0021b !important;
+}
+/* tabs/pills */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #334fc1;
+  border-radius: 0px;
+}
+.tab-content {
+  padding: 40px;
+  margin-top: -20px;
+}
