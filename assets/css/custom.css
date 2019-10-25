@@ -82,6 +82,10 @@ Description:  You can add your custom CSS here and it will overwrite template st
   display: block;
   font-family: "Montserrat", sans-serif;
 }
+.card__content {
+  margin-bottom: 0;
+  font-size: 14px;
+}
 .home__avatar {
   width: 50px;
   height: 50px;
