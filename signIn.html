@@ -72,102 +72,52 @@
                               <div class="form-group">
                                 <small class="text-muted pl-0">Enter Password</small>
                                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
-                              </div class>
-                              <button type="submit" class="btn btn-sm btn-success">
+                              </div>
+                              <button type="submit" class="btn btn-sm btn-success col-md-12">
                                 <a href="index.html"></a>Sign In</a>
                               </button>
                             </form>
                             <small>
-                              <a class="float-right" href="#">Forgot password?</a>
+                              <a class="float-right pt-3" href="#">Forgot password?</a>
                             </small>
                       </div>
-                      <div class="tab-pane px-5 fade" id="nav-search" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <div class="form-group">
-                          <label class="control-label" for="select-default">Location</label>
-                          <select name="select-default" id="select-default" class="form-control">
-                            <option value="Canada">Any Location</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Spain">Spain</option>
-                            <option value="Greece">Greece</option>
-                          </select>
+                      <div class="tab-pane  fade" id="nav-search" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="form-group pt-5">
+                          <small class="text-muted pl-0">Enter ID Number</small>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="30385621">
                         </div>
                         <div class="form-group">
-                          <label class="control-label" for="select-default">Property Type</label>
-                          <select name="select-default" id="select-default" class="form-control">
-                            <option value="Canada">Property Type</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Spain">Spain</option>
-                            <option value="Greece">Greece</option>
-                          </select>
+                          <small class="text-muted pl-0">Email</small>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@example.com">
                         </div>
                         <div class="form-group">
-                          <label class="control-label" for="select-default">Bedroom</label>
-                          <select name="select-default" id="select-default" class="form-control">
-                            <option value="Canada">Bedroom</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Spain">Spain</option>
-                            <option value="Greece">Greece</option>
-                          </select>
+                          <small class="text-muted pl-0">Phone Number</small>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="070000000">
                         </div>
                         <div class="form-group">
-                          <label class="control-label" for="select-default">Bathroom</label>
-                          <select name="select-default" id="select-default" class="form-control">
-                            <option value="Canada">Bathroom</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Spain">Spain</option>
-                            <option value="Greece">Greece</option>
-                          </select>
+                          <small class="text-muted pl-0">Password</small>
+                          <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="password">
                         </div>
-            
-                        <div class="slider-range-wrapper">
-                          <div id="slider-range" class="slider-range noUi-target noUi-ltr noUi-horizontal">
-                            <div class="noUi-base">
-                              <div class="noUi-origin" style="left: 0%;">
-                                <div class="noUi-handle" data-handle="0" style="z-index: 5;"></div>
-                              </div>
-                              <div class="noUi-connect" style="left: 0%; right: 22.2222%;"></div>
-                              <div class="noUi-origin" style="left: 77.7778%;">
-                                <div class="noUi-handle" data-handle="1" style="z-index: 4;"></div>
-                              </div>
+                          <div class="form-group">
+                              <small class="text-muted pl-0">Choose Department</small>
+                              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected ">Choose type of role</option>
+                                <option value="1">NIIMS</option>
+                                <option value="2">NRB</option>
+                                <option value="3">CRS</option>
+                              </select>
                             </div>
-                          </div>
-                          <div class="slider-range-label">
-                            Price: Ksh<span id="slider-range-value-min">0.00</span> - Ksh<span id="slider-range-value-max"> 100 000
-                              000.00</span>
-                          </div>
+                        <div class="form-group">
+                          <label class="checkbox checkbox-inline text-success">
+                            <input type="checkbox" id="inlineCheckbox1" value="option1" checked="" > I agree to all statements of terms of service
+                            <span class="checkbox-indicator"></span>
+                          </label>
                         </div>
-            
-                        <div class="form-group form-group--submit">
-                          <a href="#" class="btn btn-danger btn-lg btn-block">Search</a>
-                        </div>
-            
-                        <h2 class="product__title pt-3 pb-3 ">Categories</h2>
-            
-                        <dl class="px-3 alc-staff-details">
-            
-                          <dt class="alc-staff-details__label">Appartments:</dt>
-                          <dd class="alc-staff-details__value">12</dd>
-            
-                          <dt class="alc-staff-details__label">Houses:</dt>
-                          <dd class="alc-staff-details__value">8</dd>
-            
-                          <dt class="alc-staff-details__label">Family Houses:</dt>
-                          <dd class="alc-staff-details__value">23</dd>
-            
-                          <dt class="alc-staff-details__label">Offices</dt>
-                          <dd class="alc-staff-details__value">5</dd>
-            
-                          <dt class="alc-staff-details__label">Villas:</dt>
-                          <dd class="alc-staff-details__value">63</dd>
-            
-                          <dt class="alc-staff-details__label">Othor:</dt>
-                          <dd class="alc-staff-details__value">7</dd>
-            
-                        </dl>
-            
+                        <button type="submit" class="btn btn-sm btn-primary col-md-12">
+                          <a href="index.html"></a>Sign Up
+                        </button>
+                          <p class="pt-3 pb-5"><a href="#">I'm already a member</a></p> 
                       </div>
-            
-            
                     </div>
                   </section>
               </div>

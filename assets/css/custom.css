@@ -107,6 +107,15 @@ h3 {
   font-weight: bold;
 }
 
+.image {
+  max-width: 150px;
+  height: 150px;
+}
+.fingerprint {
+  max-width: 200px;
+  height: 200px;
+}
+
 label {
   text-transform: none;
   font-size: 13px;
